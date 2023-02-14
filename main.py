@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 app = FastAPI(
     title="ChatGPT在线",
-    description="AIChatAPI is a simple API that uses OpenAI's GPT-3 API to generate responses to messages.",
+    description="ChatGPT is a simple API that uses OpenAI's GPT-3 API to generate responses to messages.",
     version="0.1.0",
 )
 # CORS

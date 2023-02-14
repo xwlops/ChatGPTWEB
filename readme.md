@@ -23,7 +23,7 @@ AIChatAPI 是一个简单的API，它使用OpenAI的GPT-3 API来生成对消息�
    python main.py
    ```
 
-4. 在浏览器中打开 http://localhost:8088/
+4. 在浏览器中打开 http://localhost:80/
 
 ## API文档
 
@@ -61,9 +61,9 @@ AIChatAPI 是一个简单的API，它使用OpenAI的GPT-3 API来生成对消息�
 ## Docker一键部署
 ### AMD
 ```shell
-docker run -d --restart=always -p 8000:8000 --name aichat lanol/aichat:latest
+docker run -d --restart=always -p 80:80 --name aichat lanol/aichat:latest
 ```
 ### ARM
 ```shell
-docker run -d --restart=always -p 8000:8000 --name aichat lanol/aichat:arm
+docker run -d --restart=always -p 80:80 --name aichat lanol/aichat:arm
 ```
